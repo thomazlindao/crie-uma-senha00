@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap');
 :root{
-    --branco:rgb(226, 126, 126);
-    --cor-de-fundo:#d14c31;
-    --fundo-senha:#fa4c29; 
-    --fundo-texto:#1f1b22;
-    --borda:#eed36f; 
+    --branco:white;
+    --cor-de-fundo:#0c361d;
+    --fundo-senha:#1e5834; 
+    --fundo-texto:#1e5834;
+    --borda:#108b41; 
     --fonte-principal:'Bitcount Prop Single'; 
 }
 body{
@@ -75,7 +75,7 @@ img{
     background-color: var(--fundo-texto);
     color: var(--branco);
     border: 2px solid var(--borda);
-    padding: 24px ;
+    padding: 24px;
     font-size: 24px;
     cursor: pointer;
 }
@@ -85,8 +85,8 @@ img{
     border-bottom: 2px solid var(--borda);
     margin: 0;
 }
-label {
-    font-size: 20px; 
+label{
+    font-size: 20px;
 }
 @media screen and (min-width: 768px) {
     .parametro-coluna-senha{
@@ -106,21 +106,21 @@ label {
 .fraca{
     height: 30px;
     width: 25%;
-    background-color: #a50a58;
+    background-color: #460a0a;
     position: relative;
     bottom: 30px;
 }
 .media{
     height: 30px;
     width: 50%;
-    background-color: #cbcbcb;
+    background-color: #a8b404;
     position: relative;
     bottom: 30px;
 }
 .forte{
     height: 30px;
     width: 100%;
-    background-color: rgb(93, 125, 96);
+    background-color: #077e17;
     position: relative;
     bottom: 30px;
 }
