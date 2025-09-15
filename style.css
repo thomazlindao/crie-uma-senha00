@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap');
 :root{
-    --branco:white;
-    --cor-de-fundo:#0c0e0e;
-    --fundo-senha:#9d4edd; 
-    --fundo-texto:#c77dff;
-    --borda:#e0aaff; 
+    --branco:rgb(226, 126, 126);
+    --cor-de-fundo:#d14c31;
+    --fundo-senha:#fa4c29; 
+    --fundo-texto:#1f1b22;
+    --borda:#eed36f; 
     --fonte-principal:'Bitcount Prop Single'; 
 }
 body{
