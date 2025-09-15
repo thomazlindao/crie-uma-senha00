@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap');
 :root{
     --branco:white;
-    --cor-de-fundo:#107f8e;
-    --fundo-senha:#001637;
-    --fundo-texto:#001637;
-    --borda:#5ad6ff;
-    --fonte-principal:'family=Playwrite' , monospace
+    --cor-de-fundo:#0c0e0e;
+    --fundo-senha:#9d4edd; 
+    --fundo-texto:#c77dff;
+    --borda:#e0aaff; 
+    --fonte-principal:'Bitcount Prop Single'; 
 }
 body{
     background-color: var(--cor-de-fundo);
@@ -26,7 +26,7 @@ body{
 #campo-senha{
     background-color: var(--fundo-senha);
     border: none;
-    color: var(branco);
+    color: var(--branco);
     font-family: var(--fonte-principal);
     font-size: 40px;
     width: 70%;
@@ -39,15 +39,17 @@ body{
     font-size: 24px;
 }
 img{
-    width: 15%;
-    height: 10%;
+    width: 4%;
+    height: 4%;
 }
 #campo-senha:focus{
-    outline: none;}
+    outline: none;
+}
 .parametro{
     background-color: var(--fundo-texto);
     border: 2px solid var(--branco);
     margin-top: 32px;
+    padding: 24px;
 }
 .parametro-titulo{
     font-family: var(--fonte-principal);
@@ -69,11 +71,11 @@ img{
     display: flex;
     justify-content: center;
 }
-.parametro-senha-botoes{
+.parametro-senha-botao{
     background-color: var(--fundo-texto);
     color: var(--branco);
     border: 2px solid var(--borda);
-    padding: 24px;
+    padding: 24px ;
     font-size: 24px;
     cursor: pointer;
 }
@@ -83,46 +85,46 @@ img{
     border-bottom: 2px solid var(--borda);
     margin: 0;
 }
-label{
-    font-size: 20px;
+label {
+    font-size: 20px; 
 }
 @media screen and (min-width: 768px) {
     .parametro-coluna-senha{
-         flex-direction: row;
+        flex-direction: row;
     }
 }
- .checkbox {
+.checkbox{
     width: 20px;
     height: 20px;
     cursor: pointer;
- }
- .barra {
-  background-color: var(--fundo-senha);
-  height: 30px;
-  width: 100%;
 }
-.franca {
-    height: 30px;
-    width: 25%;
-    background-color: coral;
-    position: relative;
-    bottom: 30px;
-}
-.media {
-    height: 30px;
-    width: 50%;
-    background-color: rgb(229, 255, 0);
-    position: relative;
-    bottom: 30px;
-}
-.forte {
+.barra{
+    background-color: var(--fundo-senha);
     height: 30px;
     width: 100%;
-    background-color: rgb(158, 255, 61);
+}
+.fraca{
+    height: 30px;
+    width: 25%;
+    background-color: #a50a58;
     position: relative;
     bottom: 30px;
 }
-.parametro-senha-textos {
+.media{
+    height: 30px;
+    width: 50%;
+    background-color: #cbcbcb;
+    position: relative;
+    bottom: 30px;
+}
+.forte{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(93, 125, 96);
+    position: relative;
+    bottom: 30px;
+}
+.parametro-senha-textos{
     display: flex;
     justify-content: space-between;
 }
